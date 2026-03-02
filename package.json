@@ -1,10 +1,12 @@
 {
   "name": "@tracekit/webpack-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TraceKit source map upload plugin for webpack",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
@@ -17,6 +19,14 @@
     "@types/node": "^20.0.0",
     "webpack": "^5.90.0"
   },
-  "keywords": ["webpack", "plugin", "sourcemap", "source-map", "tracekit", "apm", "debugging"],
+  "keywords": [
+    "webpack",
+    "plugin",
+    "sourcemap",
+    "source-map",
+    "tracekit",
+    "apm",
+    "debugging"
+  ],
   "license": "MIT"
 }
